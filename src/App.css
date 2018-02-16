@@ -87,3 +87,24 @@
     top: 240px;
     z-index: 1;
 }
+
+.face {
+  background-color: #2e3192;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 5000;
+  position: absolute;
+  opacity: 0.7
+}
+
+.faceIMG {
+  opacity: 1 !important;
+  padding-top: 10%;
+}
+
+.col-sm-6 {
+}
+
+#nopadding {
+  padding:  0 !important;
+}
