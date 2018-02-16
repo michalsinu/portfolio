@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Lato:300,400');
+
+.sidebar {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: right;
+  width: 100px;
+  padding-top: 30px;
+}
+
+.sidebar a {
+  border-bottom: 1px dashed #616160;
+  color: #7d7d7c;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.logo {
+  padding-bottom: 25px;
+}
+
+.laptop {
+  background-image: url('assets/Laptop.png');
+  background-repeat:no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+    left: 250px;
+    top: 30px;
+    z-index: 1;
+}
+
+.iphone {
+  background-image: url('assets/iPhone.png');
+  background-repeat:no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+    left: 200px;
+    top: 130px;
+    z-index: 1;
+}
+
+.notebook {
+  background-image: url('assets/Notebook.png');
+  background-repeat:no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+    left: 315px;
+    top: 120px;
+    z-index: 1;
+}
+
+.coffee {
+  background-image: url('assets/Coffee.png');
+  background-repeat:no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+    left: 200px;
+    top: 260px;
+    z-index: 1;
+  opacity: 0.65;
+}
+
+.water_bottle {
+  background-image: url('assets/Water_Bottle.png');
+  background-repeat:no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+    left: 350px;
+    top: 260px;
+    z-index: 1;
+}
+
+.briefcase {
+  background-image: url('assets/Briefcase.png');
+  background-repeat:no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+    left: 460px;
+    top: 240px;
+    z-index: 1;
+}
