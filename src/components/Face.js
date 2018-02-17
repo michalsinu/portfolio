@@ -8,6 +8,9 @@ class Face extends Component {
       <div>
         <div className="face" />
         <img src={faceIMG} className="faceIMG" alt="Face" />
+        <div className="faceHeading">
+          Hi, I'm Michal.
+        </div>
       </div>
     );
   }

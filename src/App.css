@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
-@import url('https://fonts.googleapis.com/css?family=Kavivanar|Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 
 .sidebar {
   font-family: 'Lato', sans-serif;
@@ -92,9 +92,9 @@
   background-color: #2e3192;
   min-width: 100%;
   min-height: 100%;
-  z-index: 5000;
   position: absolute;
-  opacity: 0.7
+  opacity: 0.7;
+  z-index: 1;
 }
 
 .faceIMG {
@@ -102,9 +102,21 @@
   padding-top: 10%;
 }
 
-.col-sm-6 {
-}
-
 #nopadding {
   padding:  0 !important;
+}
+
+.faceHeading {
+  background-color: #474545;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 6px;
+  top: 20%;
+  left: -28%;
+  z-index: 2;
 }
