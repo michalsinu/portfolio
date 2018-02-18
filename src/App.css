@@ -168,6 +168,28 @@
 
   #faceHeadingSkeleton {
     font-size: 26px;
-    /**/
   }
+}
+
+.portfolioIntro {
+  background-color: #d07c7c;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  padding: 100px;
+  margin: 0px;
+}
+
+.col-md, .col-md-6, .col-md-3, .col-md-2, .col-md-1, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  border: 0px solid #000000;
+}
+
+.portfolioIntro h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.thumb-01 {
+
 }

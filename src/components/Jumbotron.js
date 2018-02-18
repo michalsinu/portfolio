@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Logo from '../assets/Logo.png';
 
-class Sidebar extends Component {
+class Jumbotron extends Component {
   render() {
-    console.log();
     return (
       <div className="container-fluid">
         <div className="row">
@@ -30,4 +29,4 @@ class Sidebar extends Component {
   }
 }
 
-export default Sidebar;
+export default Jumbotron;

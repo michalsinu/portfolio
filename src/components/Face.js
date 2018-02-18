@@ -17,7 +17,6 @@ class Face extends Component {
           </div>
           <div  className="faceHeading3" id="faceHeadingSkeleton">
           <Typist>
-          <Typist.Delay ms={2000} />
             <span>nice websites.</span>
           <Typist.Backspace count={14} delay={1000} />
             <span>good websites.</span>
