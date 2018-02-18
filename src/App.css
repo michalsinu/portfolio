@@ -106,17 +106,67 @@
   padding:  0 !important;
 }
 
-.faceHeading {
+#faceHeadingSkeleton {
   background-color: #474545;
   color: #FFFFFF;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   position: absolute;
+}
+
+.faceHeading {
   padding: 2px;
   padding-left: 8px;
   padding-right: 6px;
-  top: 20%;
+
+  top: 7%;
   left: -28%;
   z-index: 2;
+}
+
+.faceHeading2 {
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 6px;
+
+  top: 23%;
+  left: -28%;
+  z-index: 2;
+}
+
+.faceHeading3 {
+  padding: 0px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+  padding-right: 6px;
+
+  top: 39%;
+  left: -28%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 991px) {
+  .briefcase {
+    left: 150px;
+    top: 30px;
+  }
+
+  .coffee {
+    left: 150px;
+    top: 85px;
+  }
+
+  .water_bottle {
+    display: none;
+  }
+
+  .faceHeading, .faceHeading2, .faceHeading3 {
+    left: 1%;
+
+  }
+
+  #faceHeadingSkeleton {
+    font-size: 26px;
+  }
 }
