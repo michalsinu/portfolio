@@ -8,14 +8,15 @@ class Portfolio extends Component {
         <div className="row" >
 
           <div className="col-md-6 portfolioIntro">
-              <h1>
+              <h2>
                 My Work...
-              </h1>
+              </h2>
               <p>
-                Here is where I showcase my art,<br />
-                everything you see is critically edited to a high standard.<br />
-                Maybe, your website could be here too. ;)
+                100% Hand made and made with passion,<br />
+                my work is critically edited to a high standard.<br />
+                Maybe, your website could be featured here too. ;)
               </p>
+              <a class="btn btn-portfolio" href="#" role="button">See more..</a>
           </div>
 
           <div className="col-md-6" id="nopadding">

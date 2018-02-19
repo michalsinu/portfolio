@@ -172,24 +172,44 @@
 }
 
 .portfolioIntro {
-  background-color: #d07c7c;
+  background-color: #ff7675;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 19px;
-  padding: 100px;
-  margin: 0px;
+  padding: 98px;
+}
+
+.temp {
+  width: 400px;
+  height: 400px;
+  margin-left: 70px;
+  margin-top: 50px;
 }
 
 .col-md, .col-md-6, .col-md-3, .col-md-2, .col-md-1, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
   border: 0px solid #000000;
 }
 
-.portfolioIntro h1 {
+.portfolioIntro h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
-.thumb-01 {
+.portfolioIntro a {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
 
+.portfolioIntro a:hover {
+  color: #FFFFFF;
+}
+
+.card {
+  border: 0px solid black !important;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0px !important;
 }
