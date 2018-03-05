@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReallySmoothScroll from 'really-smooth-scroll';
 
 import Jumbotron from './components/Jumbotron';
 import Face from './components/Face';
@@ -6,13 +7,21 @@ import Face from './components/Face';
 import Portfolio from './components/Portfolio';
 import Thumbs from './components/Thumbs';
 
-class App extends Component {
+import Skills from './components/Skills';
 
+ReallySmoothScroll.shim();
+ReallySmoothScroll.config({
+  mousewheelSensitivity: 30,
+  keydownSensitivity: 30
+});
+
+class App extends Component {
   render() {
     return (
       <div>
         <Jumbotron componentFace={<Face />} />
         <Portfolio componentThumbs={<Thumbs />} />
+        <Skills />
       </div>
     );
   }
