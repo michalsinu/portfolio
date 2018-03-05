@@ -173,6 +173,16 @@
   margin-bottom: 50px;
 }
 
+#skillsPercentage {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 575px) {
+  #skillsPercentage {
+    padding-top: 30px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .briefcase {
     left: 150px;
@@ -253,5 +263,54 @@
 }
 
 .portfolioIntro a:hover {
+  color: #ff7675;
+  background-color: #FFFFFF;
+}
+
+.progress {
+  height: 1.7rem !important;
+  border-radius: 0rem !important;
+  -webkit-box-shadow: inset 2px 25px 35px -21px rgba(0,0,0,0.35);
+  -moz-box-shadow: inset 2px 25px 35px -21px rgba(0,0,0,0.35);
+  box-shadow: inset 2px 25px 35px -21px rgba(0,0,0,0.35);
+}
+
+.lang {
   color: #FFFFFF;
+  padding: 7px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+
+#html {
+  background-color: #bc313e;
+}
+
+#js {
+  background-color: #f4b907;
+}
+
+#css {
+  background-color: #690cd3;
+}
+
+#php {
+  background-color: #29a044;
+}
+
+#mysql {
+  background-color: #8f10ba;
+}
+
+#reactjs {
+  background-color: #046fe2;
+}
+
+#cssProgress-bar {
+  background-color: #7506f4;
+}
+
+#mysqlProgress-bar {
+  background-color: #aa11dd;
 }

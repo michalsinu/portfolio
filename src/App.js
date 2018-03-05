@@ -18,11 +18,11 @@ ReallySmoothScroll.config({
 class App extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Jumbotron componentFace={<Face />} />
         <Portfolio componentThumbs={<Thumbs />} />
         <Skills />
-      </div>
+      </React.Fragment>
     );
   }
 }
