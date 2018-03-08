@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 
+#input-email, #input-name, #input-message {
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #CCCCCC;
+  resize: none;
+}
+
+#input-button {
+  border-radius: 0px;
+  background-color: #FFFFFF;
+  color: #D3D3D3;
+  width: 100%;
+}
+
+#contactform {
+  margin-left: 4% !important;
+  width: 80%;
+}
+
 .sidebar {
   font-family: 'Lato', sans-serif;
   font-weight: 300;

@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.4b5aebc1.css",
-  "main.css.map": "static/css/main.4b5aebc1.css.map",
-  "main.js": "static/js/main.a5ff6716.js",
-  "main.js.map": "static/js/main.a5ff6716.js.map",
+  "main.css": "static/css/main.748205fa.css",
+  "main.css.map": "static/css/main.748205fa.css.map",
+  "main.js": "static/js/main.7fb8dfec.js",
+  "main.js.map": "static/js/main.7fb8dfec.js.map",
   "static/media/Briefcase.png": "static/media/Briefcase.9d39824a.png",
   "static/media/Coffee.png": "static/media/Coffee.9eb4df4b.png",
   "static/media/Face.png": "static/media/Face.0c979779.png",
@@ -10,12 +10,13 @@
   "static/media/Logo.png": "static/media/Logo.39aae5ac.png",
   "static/media/Notebook.png": "static/media/Notebook.8a267355.png",
   "static/media/Water_Bottle.png": "static/media/Water_Bottle.4825403a.png",
-  "static/media/cabin.png": "static/media/cabin.56ec4ee7.png",
-  "static/media/cake.png": "static/media/cake.a29c0b43.png",
-  "static/media/circus.png": "static/media/circus.e27c88e5.png",
-  "static/media/game.png": "static/media/game.107d31e8.png",
+  "static/media/coffee.jpeg": "static/media/coffee.55f88461.jpeg",
+  "static/media/designer.jpeg": "static/media/designer.810b1314.jpeg",
+  "static/media/flowers.jpeg": "static/media/flowers.368bc271.jpeg",
+  "static/media/food.jpeg": "static/media/food.9c6a99a9.jpeg",
   "static/media/iPhone.png": "static/media/iPhone.9760c07c.png",
-  "static/media/safe.png": "static/media/safe.7dfdcf55.png",
-  "static/media/submarine.png": "static/media/submarine.8fad4ff9.png",
-  "static/media/tmp.png": "static/media/tmp.99c5b099.png"
+  "static/media/nature.jpeg": "static/media/nature.ce02cd3c.jpeg",
+  "static/media/portfolio.jpeg": "static/media/portfolio.a53c1adc.jpeg",
+  "static/media/tech.jpeg": "static/media/tech.56a7ef01.jpeg",
+  "static/media/tmp.png": "static/media/tmp.fc7de067.png"
 }

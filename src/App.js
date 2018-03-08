@@ -9,10 +9,12 @@ import Thumbs from './components/Thumbs';
 
 import Skills from './components/Skills';
 
+import Contact from './components/Contact';
+
 ReallySmoothScroll.shim();
 ReallySmoothScroll.config({
-  mousewheelSensitivity: 30,
-  keydownSensitivity: 30
+  mousewheelSensitivity: 20,
+  keydownSensitivity: 20
 });
 
 class App extends Component {
@@ -22,6 +24,7 @@ class App extends Component {
         <Jumbotron componentFace={<Face />} />
         <Portfolio componentThumbs={<Thumbs />} />
         <Skills />
+        <Contact />
       </React.Fragment>
     );
   }
