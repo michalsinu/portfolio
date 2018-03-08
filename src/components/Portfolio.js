@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import thumb1 from '../assets/cabin.png';
-import thumb2 from '../assets/cake.png';
-import thumb3 from '../assets/circus.png';
-import thumb4 from '../assets/game.png';
-import thumb5 from '../assets/safe.png';
-import thumb6 from '../assets/submarine.png';
+import thumb1 from '../assets/coffee.jpeg';
+import thumb2 from '../assets/nature.jpeg';
+import thumb3 from '../assets/flowers.jpeg';
+import thumb4 from '../assets/food.jpeg';
+import thumb5 from '../assets/tech.jpeg';
+import thumb6 from '../assets/designer.jpeg';
 
 class Portfolio extends Component {
 
@@ -12,16 +12,14 @@ class Portfolio extends Component {
     return (
     <React.Fragment>
       <div className="container-fluid">
-        <div className="row">
+        <div className="row  portfolioIntro">
 
-          <div className="col-md-6 portfolioIntro">
+          <div className="col-md-6 portfolioText">
               <h2>
                 My Work...
               </h2>
               <p>
-                100% Hand made and made with passion,<br />
-                my work is critically edited to a high standard.<br />
-                Maybe, your website could be featured here too. ;)
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros nisl, commodo ac felis vel, maximus tincidunt nisl. Vestibulum suscipit massa justo, nec tempor augue feugiat at. Ut gravida porttitor condimentum. Morbi tincidunt ligula id diam varius faucibus. Sed id velit ullamcorper, consequat ligula eget,
               </p>
               <a class="btn btn-portfolio" href="#" role="button">See more..</a>
           </div>
@@ -57,6 +55,8 @@ class Portfolio extends Component {
           <div className="col-md-4">
             <img src={thumb4} className="thumb" />
           </div>
+
+          <div className="laptop test" />
 
           <div className="col-md-4">
             <img src={thumb5} className="thumb" />

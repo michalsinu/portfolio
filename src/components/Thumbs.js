@@ -5,7 +5,7 @@ class Thumbs extends Component {
   render() {
     return (
     <React.Fragment>
-      <img src={Temp} className="temp" />
+      <img src={Temp} className="img-fluid temp" />
     </React.Fragment>
     );
   }

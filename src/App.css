@@ -23,7 +23,7 @@
 
 .laptop {
   background-image: url('assets/Laptop.png');
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -89,12 +89,15 @@
 }
 
 .face {
-  background-color: #2e3192;
+  background-color: #d63031;
   min-width: 100%;
   min-height: 100%;
   position: absolute;
   opacity: 0.7;
   z-index: 1;
+  -webkit-box-shadow: inset 0px 9px 24px -15px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 9px 24px -15px rgba(0,0,0,1);
+  box-shadow: inset 0px 9px 24px -15px rgba(0,0,0,1);
 }
 
 .faceIMG {
@@ -234,10 +237,8 @@
   }
 
   .temp {
-    width: 0px;
-    height: 300px;
-    margin-left: 50%;
-    margin-top: 50px;
+    margin-left: 5%;
+    padding-top: 50px;
   }
 
   .thumb {
@@ -249,23 +250,36 @@
 }
 
 .portfolioIntro {
-  background-color: #2e3192;
+  background-color: #363636;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 19px;
-  padding: 98px;
-  border: 1px solid #000000;
-  opacity: 0.68;
+  padding: 50px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: inset 0px 9px 24px -15px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 9px 24px -15px rgba(0,0,0,1);
+  box-shadow: inset 0px 9px 24px -15px rgba(0,0,0,1);
+}
+
+.portfolioIMG {
+  background-image: url('assets/portfolio.jpeg');
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-size: cover;
+  width: 100%;
+  height: 82%;
+}
+
+.portfolioText {
+  margin-top: 5%;
 }
 
 .temp {
-  margin-left: 15%;
-  margin-top: 100px;
-
-  padding: 0px !important;
-  width: 60%;
-  height: 70%;
+  margin-left: 20%;
+  position: relative;
+  width: 61%;
 }
 
 .col-md, .col-md-6, .col-md-3, .col-md-2, .col-md-1, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -300,8 +314,9 @@
   font-weight: 700;
   font-size: 12px;
   text-align: center;
+  background-color: #bc313e;
 }
-
+ /*
 #html {
   background-color: #bc313e;
 }
@@ -333,6 +348,7 @@
 #mysqlProgress-bar {
   background-color: #aa11dd;
 }
+*/
 
 .thumb {
   padding: 0px !important;
