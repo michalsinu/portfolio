@@ -79,7 +79,7 @@ var marginProgressBar = {marginTop: '5px'};
         <div className="row">
           <div className="col-sm-6">
             <div className="skillsHeading" id="headingSkeleton">
-              ..Skills
+              ...Skills
             </div>
             <div className="skillsText">
               Having a “growth mindset”<br />
@@ -113,7 +113,7 @@ var marginProgressBar = {marginTop: '5px'};
 
             <div className="progress" style={marginProgressBar}>
               <div className="lang" id="php">PHP</div>
-              <div className="progress-bar progress-bar-animated bg-danger bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.php}>
+              <div className="progress-bar progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.php}>
                 {this.state.phpPercentage}%
               </div>
             </div>
