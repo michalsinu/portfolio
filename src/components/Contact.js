@@ -10,7 +10,7 @@ class Contact extends Component {
         <div className="contactHeading" id="headingSkeleton">
           Let's have a chat...
         </div>
-          <form action="http://formspree.io/michalsinu@gmail.com" method="POST">
+          <form action="https://formspree.io/michalsinu@gmail.com" method="POST">
             <div className="form-row align-items-center">
               <div className="col-md-6">
                 <div className="input-group mb-2 mb-sm-0">
