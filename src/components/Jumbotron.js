@@ -9,7 +9,7 @@ class Jumbotron extends Component {
           <div className="col-md-6">
             <div className="sidebar">
               <img src={Logo} className="logo" alt="Logo" /><br />
-              <a href="#">Skills</a>
+              <a href="#skills">Skills</a>
               <a href="#">Portfolio</a>
               <a href="#">Contact form</a>
               <div className="laptop" />

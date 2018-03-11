@@ -59,7 +59,6 @@ componentDidMount() {
               reactjsPercentage: '90',
             })
             i = i + 1;
-            console.log("Distance: " + distance);
             document.removeEventListener("scroll", progressbar)
         }
       }

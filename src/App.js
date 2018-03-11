@@ -11,6 +11,8 @@ import Skills from './components/Skills';
 
 import Contact from './components/Contact';
 
+import Footer from './components/Footer';
+
 ReallySmoothScroll.shim();
 ReallySmoothScroll.config({
   mousewheelSensitivity: 20,
@@ -25,6 +27,7 @@ class App extends Component {
         <Portfolio componentThumbs={<Thumbs />} />
         <Skills />
         <Contact />
+        <Footer />
       </React.Fragment>
     );
   }

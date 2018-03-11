@@ -21,7 +21,7 @@ class Portfolio extends Component {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros nisl, commodo ac felis vel, maximus tincidunt nisl. Vestibulum suscipit massa justo, nec tempor augue feugiat at. Ut gravida porttitor condimentum. Morbi tincidunt ligula id diam varius faucibus. Sed id velit ullamcorper, consequat ligula eget,
               </p>
-              <a class="btn btn-portfolio" href="#" role="button">See more..</a>
+              <a className="btn btn-portfolio" href="#" role="button">See more..</a>
           </div>
 
           <div className="col-md-6" id="nopadding">

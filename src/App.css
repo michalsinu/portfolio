@@ -37,7 +37,7 @@
 }
 
 #contactform {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   margin-left: 50px;
   width: 40%;
 }
@@ -47,7 +47,7 @@
   padding-bottom: 5px;
   padding-top: 5px;
   margin-bottom: 20px;
-  width: 350px;
+  width: 333px;
   font-size: 35px !important;
 
   color: #FFFFFF;
@@ -78,7 +78,7 @@
 }
 
 .laptop {
-  background-image: url('assets/Laptop.png');
+  background: url('assets/Laptop.png');
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
@@ -89,7 +89,7 @@
 }
 
 .iphone {
-  background-image: url('assets/iPhone.png');
+  background: url('assets/iPhone.png');
   background-repeat:no-repeat;
   width: 100px;
   height: 100px;
@@ -100,7 +100,7 @@
 }
 
 .notebook {
-  background-image: url('assets/Notebook.png');
+  background: url('assets/Notebook.png');
   background-repeat:no-repeat;
   width: 100px;
   height: 100px;
@@ -111,7 +111,7 @@
 }
 
 .coffee {
-  background-image: url('assets/Coffee.png');
+  background: url('assets/Coffee.png');
   background-repeat:no-repeat;
   width: 100px;
   height: 100px;
@@ -123,7 +123,7 @@
 }
 
 .water_bottle {
-  background-image: url('assets/Water_Bottle.png');
+  background: url('assets/Water_Bottle.png');
   background-repeat:no-repeat;
   width: 100px;
   height: 100px;
@@ -134,7 +134,7 @@
 }
 
 .briefcase {
-  background-image: url('assets/Briefcase.png');
+  background: url('assets/Briefcase.png');
   background-repeat:no-repeat;
   width: 100px;
   height: 100px;
@@ -223,6 +223,7 @@
 
 .skillsText {
   font-size: 19px;
+  font-family: 'Lato';
   font-weight: 300 !important;
   color: #333333;
   line-height: normal !important;
@@ -231,7 +232,7 @@
 }
 
 #skills {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 50px;
   background-color: #FFFFFF;
   padding-top: 4%;
@@ -276,21 +277,21 @@
   }
 
   #headingSkeleton {
-    font-size: 26px;
+    font-size: 15px;
   }
 
   .skillsHeading {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   #contactform {
-    margin-left: 10px;
+    margin-left: 0px;
     width: 95%;
   }
 
   .skillsText {
-    margin-left: 10px;
-    margin-top: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
   }
 
   #skills {
@@ -336,6 +337,7 @@
 
 .portfolioText {
   margin-top: 5%;
+  font-family: 'Lato';
 }
 
 .temp {
@@ -394,4 +396,71 @@
 
 .col-md-4 {
   border: 0px solid black;
+}
+
+.footerGetInTouch {
+  background-color: #363636;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  padding-top: 30px;
+  color: #999999;
+  font-family: 'Lato';
+
+  -webkit-box-shadow: 0px -5px 20px -9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px -5px 20px -9px rgba(0,0,0,1);
+  box-shadow: 0px -5px 20px -9px rgba(0,0,0,1);
+}
+
+.footerGetInTouch h5 {
+  font-size: 17px;
+  color: #f1f1f1;
+  font-weight: 400;
+}
+
+.footerCopyright {
+  background-color: #363636;
+  color: #f1f1f1;
+  font-family: 'Lato';
+  border: 0px solid #FFFFFF;
+  padding-bottom: 25px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.socialMedia {
+  width: 60px;
+  height: 60px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.GitHub {
+  background-image: url('assets/github.png');
+}
+
+.Twitter {
+  background-image: url('assets/twitter.png');
+}
+
+.LinkedIn {
+  background-image: url('assets/linkedin.png');
+  margin-right: 0px;
+}
+
+.footerContact {
+  width: 45px;
+  height: 45px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.email {
+  background-image: url('assets/email.png');
+}
+
+.phone {
+  background-image: url('assets/phone.png');
 }
