@@ -73,6 +73,12 @@
   margin-bottom: 8px;
 }
 
+.sidebar a:hover {
+  color: #7d7d7c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .logo {
   padding-bottom: 25px;
 }
@@ -226,9 +232,25 @@
   font-family: 'Lato';
   font-weight: 300 !important;
   color: #333333;
-  line-height: normal !important;
   margin-left: 50px;
   margin-top: 25px;
+}
+
+.contactText {
+  font-size: 19px;
+  font-family: 'Lato';
+  font-weight: 300 !important;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contactText a {
+  color: #ed3b3b;
+}
+
+.contactText a:hover {
+  color: #ed3b3b;
 }
 
 #skills {
@@ -411,6 +433,16 @@
   box-shadow: 0px -5px 20px -9px rgba(0,0,0,1);
 }
 
+.footerGetInTouch a {
+  color: #999999;
+}
+
+.footerGetInTouch a:hover {
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .footerGetInTouch h5 {
   font-size: 17px;
   color: #f1f1f1;
@@ -423,7 +455,6 @@
   font-family: 'Lato';
   border: 0px solid #FFFFFF;
   padding-bottom: 25px;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .socialMedia {
@@ -447,6 +478,18 @@
 .LinkedIn {
   background-image: url('assets/linkedin.png');
   margin-right: 0px;
+}
+
+.GitHub:hover {
+  background-image: url('assets/githubw.png');
+}
+
+.Twitter:hover {
+  background-image: url('assets/twitterw.png');
+}
+
+.LinkedIn:hover {
+  background-image: url('assets/linkedinw.png');
 }
 
 .footerContact {

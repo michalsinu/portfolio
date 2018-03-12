@@ -10,6 +10,9 @@ class Contact extends Component {
         <div className="contactHeading" id="headingSkeleton">
           Let's have a chat...
         </div>
+        <div className="contactText">
+          If I'm not available to chat with you, I will definetly reply the traditional ol' email way. Or, you could also even give me the usual <a href="#footer">call.</a>
+        </div>
           <form action="https://formspree.io/michalsinu@gmail.com" method="POST">
             <div className="form-row align-items-center">
               <div className="col-md-6">

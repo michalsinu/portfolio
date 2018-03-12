@@ -11,14 +11,22 @@ class Footer extends Component {
           <div className="col-md-4" style={style}>
             <div className="email footerContact" />
               <h5>EMAIL</h5>
-              michalsinu@gmail.com
+              <a href="mailto:michalsinu@gmail.com?Subject=Enquiry">michalsinu@gmail.com</a>
           </div>
 
           <div className="col-md-4" style={style}>
             <hr />
-            <div className="GitHub socialMedia" />
-            <div className="Twitter socialMedia" />
-            <div className="LinkedIn socialMedia" />
+              <a href="https://github.com/michalsinu">
+                <div className="GitHub socialMedia" />
+              </a>
+
+              <a href="#">
+                <div className="Twitter socialMedia" />
+              </a>
+
+              <a href="#">
+                <div className="LinkedIn socialMedia" />
+              </a>
             <hr />
           </div>
 

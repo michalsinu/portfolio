@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReallySmoothScroll from 'really-smooth-scroll';
+import ScrollableAnchor, { goToTop, removeHash } from 'react-scrollable-anchor';
 
 import Jumbotron from './components/Jumbotron';
 import Face from './components/Face';
@@ -20,15 +21,37 @@ ReallySmoothScroll.config({
 });
 
 class App extends Component {
+  componentDidMount() {
+    removeHash()
+  }
+
   render() {
     return (
       <React.Fragment>
         <Jumbotron componentFace={<Face />} />
-        <Portfolio componentThumbs={<Thumbs />} />
-        <Skills />
-        <Contact />
-        <Footer />
+
+        <ScrollableAnchor id={'portfolio'}>
+          <Portfolio />
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'thumbs'}>
+          <Thumbs />
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'skillsA'}>
+          <Skills />
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'contact'}>
+          <Contact />
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'footer'}>
+          <Footer />
+        </ScrollableAnchor>
       </React.Fragment>
+
+
     );
   }
 }

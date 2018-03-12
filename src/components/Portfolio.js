@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import thumb1 from '../assets/coffee.jpeg';
-import thumb2 from '../assets/nature.jpeg';
-import thumb3 from '../assets/flowers.jpeg';
-import thumb4 from '../assets/food.jpeg';
-import thumb5 from '../assets/tech.jpeg';
-import thumb6 from '../assets/designer.jpeg';
+
+import Temp from '../assets/tmp.png';
+import ScrollingWeb from '../assets/scrollingWeb.JPG';
+import iMacBody from '../assets/iMacBody.png';
 
 class Portfolio extends Component {
 
   render() {
-    return (
-    <React.Fragment>
+  const style = {position: "relative"};
+  const overflow = {overflow: "hidden"};
+
+  return (
       <div className="container-fluid">
         <div className="row  portfolioIntro">
 
@@ -19,56 +19,17 @@ class Portfolio extends Component {
                 My Work...
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros nisl, commodo ac felis vel, maximus tincidunt nisl. Vestibulum suscipit massa justo, nec tempor augue feugiat at. Ut gravida porttitor condimentum. Morbi tincidunt ligula id diam varius faucibus. Sed id velit ullamcorper, consequat ligula eget,
+                I am a junior front end developer that is looking to join the web development industry. Self-taught through the internet, with a passion for progressing web development and creative web design. Problem-solving skills to create a responsive web solution for every device.
               </p>
-              <a className="btn btn-portfolio" href="#" role="button">See more..</a>
+              <a className="btn btn-portfolio" href="#thumbs" role="button">See more..</a>
           </div>
 
-          <div className="col-md-6" id="nopadding">
-            {this.props.componentThumbs}
-          </div>
-
-        </div>
-      </div>
-
-      <div className="container-fluid">
-        <div className="row" >
-
-          <div className="col-md-4">
-            <img src={thumb1} className="thumb" />
-          </div>
-
-          <div className="col-md-4">
-            <img src={thumb2} className="thumb" />
-          </div>
-
-          <div className="col-md-4">
-            <img src={thumb3} className="thumb" />
+          <div className="col-md-6" style={style}>
+              <img className="img-fluid temp" src={Temp} />
           </div>
 
         </div>
       </div>
-
-      <div className="container-fluid">
-        <div className="row" >
-
-          <div className="col-md-4">
-            <img src={thumb4} className="thumb" />
-          </div>
-
-          <div className="laptop test" />
-
-          <div className="col-md-4">
-            <img src={thumb5} className="thumb" />
-          </div>
-
-          <div className="col-md-4">
-            <img src={thumb6} className="thumb" />
-          </div>
-
-        </div>
-      </div>
-    </React.Fragment>
     );
   }
 }

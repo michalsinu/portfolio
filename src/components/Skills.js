@@ -27,7 +27,8 @@ componentDidMount() {
   var scrollTop,
       offsetTop,
       distance,
-      i=0
+      i = 0,
+      top = document.getElementById('top');
 
 
   var progressbar = function progressbar (){
@@ -46,18 +47,19 @@ componentDidMount() {
               js: {width: '62%'},
               jsPercentage: '62',
 
-              css: {width: '85%'},
+              css: {width: '87%'},
               cssPercentage: '90',
 
-              php: {width: '87%'},
+              php: {width: '85%'},
               phpPercentage: '87',
 
               mysql: {width: '75%'},
               mysqlPercentage: '75',
 
-              reactjs: {width: '85%'},
+              reactjs: {width: '83%'},
               reactjsPercentage: '90',
-            })
+            });
+
             i = i + 1;
             document.removeEventListener("scroll", progressbar)
         }
@@ -74,6 +76,7 @@ render() {
 var marginProgressBar = {marginTop: '5px'};
 
     return (
+    <React.Fragment>
       <div className="container-fluid" id="skills">
         <div className="row">
           <div className="col-sm-6">
@@ -133,6 +136,7 @@ var marginProgressBar = {marginTop: '5px'};
           </div>
         </div>
       </div>
+    </React.Fragment>
     );
   }
 }
