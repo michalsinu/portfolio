@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.6f192ba0.css",
-  "main.css.map": "static/css/main.6f192ba0.css.map",
-  "main.js": "static/js/main.11e65852.js",
-  "main.js.map": "static/js/main.11e65852.js.map",
+  "main.css": "static/css/main.6db64342.css",
+  "main.css.map": "static/css/main.6db64342.css.map",
+  "main.js": "static/js/main.e93ae194.js",
+  "main.js.map": "static/js/main.e93ae194.js.map",
   "static/media/Briefcase.png": "static/media/Briefcase.9d39824a.png",
   "static/media/Coffee.png": "static/media/Coffee.9eb4df4b.png",
   "static/media/Face.png": "static/media/Face.0c979779.png",
@@ -16,12 +16,15 @@
   "static/media/flowers.jpeg": "static/media/flowers.368bc271.jpeg",
   "static/media/food.jpeg": "static/media/food.9c6a99a9.jpeg",
   "static/media/github.png": "static/media/github.d45cf6d2.png",
+  "static/media/githubw.png": "static/media/githubw.736ff1d8.png",
   "static/media/iPhone.png": "static/media/iPhone.9760c07c.png",
   "static/media/linkedin.png": "static/media/linkedin.3f38f04d.png",
+  "static/media/linkedinw.png": "static/media/linkedinw.c6a73ec4.png",
   "static/media/nature.jpeg": "static/media/nature.ce02cd3c.jpeg",
   "static/media/phone.png": "static/media/phone.9b2b660b.png",
   "static/media/portfolio.jpeg": "static/media/portfolio.a53c1adc.jpeg",
+  "static/media/scrollingWeb.JPG": "static/media/scrollingWeb.8e76f6e7.JPG",
   "static/media/tech.jpeg": "static/media/tech.56a7ef01.jpeg",
-  "static/media/tmp.png": "static/media/tmp.fc7de067.png",
-  "static/media/twitter.png": "static/media/twitter.7b348cab.png"
+  "static/media/twitter.png": "static/media/twitter.7b348cab.png",
+  "static/media/twitterw.png": "static/media/twitterw.bfe89edb.png"
 }

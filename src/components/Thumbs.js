@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Temp from '../assets/tmp.png';
 
 import thumb1 from '../assets/coffee.jpeg';
 import thumb2 from '../assets/nature.jpeg';
@@ -46,7 +45,7 @@ class Thumbs extends Component {
         <div className="col-md-4">
           <img src={thumb6} className="thumb" />
         </div>
-        
+
       </div>
     </div>
     </React.Fragment>

@@ -8,7 +8,7 @@ class Jumbotron extends Component {
         <div className="row">
           <div className="col-md-6">
             <div className="sidebar">
-              <img src={Logo} className="logo" alt="Logo" /><br />
+              <img src={Logo} className="logoMS" alt="Logo" /><br />
               <a href="#skillsA">Skills</a>
               <a href="#portfolio">Portfolio</a>
               <a href="#contact">Contact form</a>

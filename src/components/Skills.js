@@ -27,8 +27,7 @@ componentDidMount() {
   var scrollTop,
       offsetTop,
       distance,
-      i = 0,
-      top = document.getElementById('top');
+      i = 0
 
 
   var progressbar = function progressbar (){
