@@ -16,15 +16,15 @@ class Footer extends Component {
 
           <div className="col-md-4" style={style}>
             <hr />
-              <a href="https://github.com/michalsinu">
+              <a href={this.props.github}>
                 <div className="GitHub socialMedia" />
               </a>
 
-              <a href="#">
+              <a href={this.props.twitter}>
                 <div className="Twitter socialMedia" />
               </a>
 
-              <a href="#">
+              <a href={this.props.linkedin}>
                 <div className="LinkedIn socialMedia" />
               </a>
             <hr />

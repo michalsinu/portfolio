@@ -13,7 +13,7 @@ class Contact extends Component {
         <div className="contactText">
           If I'm not available to chat with you, I will definetly reply the traditional ol' email way. Or, you could also even give me the usual <a href="#footer">call.</a>
         </div>
-          <form action="https://formspree.io/michalsinu@gmail.com" method="POST">
+          <form action={this.props.email} method="POST">
             <div className="form-row align-items-center">
               <div className="col-md-6">
                 <div className="input-group mb-2 mb-sm-0">

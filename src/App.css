@@ -391,7 +391,6 @@
 .progress {
   height: 1.7rem !important;
   border-radius: 0rem !important;
-  opacity: ;
 }
 
 .lang {
@@ -405,10 +404,10 @@
 
 .thumb {
   padding: 0px !important;
-  width: 70%;
-
+  width: 100%;
+  height: auto;
   margin-top: 12%;
-  margin-left: 15%;
+  margin-left: 0%;
   border: 5px solid #FFFFFF;
 
   -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.58);
@@ -416,8 +415,8 @@
   box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.58);
 }
 
-.col-md-4 {
-  border: 0px solid black;
+.cursorPointer {
+   cursor: pointer;
 }
 
 .footerGetInTouch {
@@ -613,4 +612,8 @@
 
 #viewport {
   background-position: 0 0%;
+}
+
+.embed-responsive {
+  height: 500px;
 }

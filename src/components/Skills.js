@@ -92,42 +92,42 @@ var marginProgressBar = {marginTop: '5px'};
           </div>
           <div className="col-sm-6" id="skillsPercentage">
             <div className="progress">
-              <div className="lang" id="html">HTML</div>
+              <div className="lang">HTML</div>
               <div className="progress-bar progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.html}>
                 {this.state.htmlPercentage}%
               </div>
             </div>
 
             <div className="progress" style={marginProgressBar}>
-              <div className="lang" id="js">Javascript</div>
+              <div className="lang">Javascript</div>
               <div className="progress-bar progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.js}>
                 {this.state.jsPercentage}%
               </div>
             </div>
 
             <div className="progress" style={marginProgressBar}>
-              <div className="lang" id="css">CSS</div>
+              <div className="lang">CSS</div>
               <div className="progress-bar progress-bar-animated bg-danger" id="cssProgress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.css}>
                 {this.state.cssPercentage}%
               </div>
             </div>
 
             <div className="progress" style={marginProgressBar}>
-              <div className="lang" id="php">PHP</div>
+              <div className="lang">PHP</div>
               <div className="progress-bar progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.php}>
                 {this.state.phpPercentage}%
               </div>
             </div>
 
             <div className="progress" style={marginProgressBar}>
-              <div className="lang" id="mysql">MySQL</div>
+              <div className="lang">MySQL</div>
               <div className="progress-bar progress-bar-animated bg-danger" id="mysqlProgress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.mysql}>
                 {this.state.mysqlPercentage}%
               </div>
             </div>
 
             <div className="progress" style={marginProgressBar}>
-              <div className="lang" id="reactjs">ReactJS</div>
+              <div className="lang">ReactJS</div>
               <div className="progress-bar progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={this.state.reactjs}>
                 {this.state.reactjsPercentage}%
               </div>

@@ -4,11 +4,6 @@ import ScrollingWeb from '../assets/scrollingWeb.JPG'
 class Portfolio extends Component {
 
 componentDidMount() {
-    var scrollTop,
-        offsetTop,
-        distance,
-        i = 0
-
     function getDocHeight() {
         var D = document;
         return Math.max(
@@ -17,24 +12,22 @@ componentDidMount() {
             D.body.clientHeight, D.documentElement.clientHeight
         )
     }
-
-    var docheight = getDocHeight()
+  
+    function scrollingWeb (){
       var viewport = document.getElementById('viewport');
-      var scrollingWeb = function scrollingWeb (){
       var winheight= window.innerHeight || (document.documentElement || document.body).clientHeight
       var docheight = getDocHeight()
       var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
       var trackLength = docheight - winheight
       var pctScrolled = Math.floor(scrollTop/trackLength * 100 * 2.3) // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
 
-      viewport.style.backgroundPosition = '0 ' + pctScrolled + '%';
-   }
+       viewport.style.backgroundPosition = '0 ' + pctScrolled + '%';
+    }
 
     document.addEventListener("scroll", scrollingWeb);
   }
 
   render() {
-  const style = {position: "relative"};
   const viewportImage = {backgroundImage: `url(${ScrollingWeb})`};
 
   return (

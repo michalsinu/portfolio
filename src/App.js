@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import ReallySmoothScroll from 'really-smooth-scroll';
-import ScrollableAnchor, { goToTop, removeHash } from 'react-scrollable-anchor';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 import Jumbotron from './components/Jumbotron';
 import Face from './components/Face';
@@ -14,17 +13,7 @@ import Contact from './components/Contact';
 
 import Footer from './components/Footer';
 
-ReallySmoothScroll.shim();
-ReallySmoothScroll.config({
-  mousewheelSensitivity: 20,
-  keydownSensitivity: 20
-});
-
 class App extends Component {
-  componentDidMount() {
-    removeHash()
-  }
-
   render() {
     return (
       <React.Fragment>
@@ -43,15 +32,16 @@ class App extends Component {
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'contact'}>
-          <Contact />
+          <Contact email="https://formspree.io/michalsinu@gmail.com" />
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'footer'}>
-          <Footer />
+          <Footer github="https://github.com/michalsinu" 
+                  twitter="https://twitter.com/objectmichal" 
+                  linkedin="https://www.linkedin.com/in/objectmichal" 
+          />
         </ScrollableAnchor>
       </React.Fragment>
-
-
     );
   }
 }
